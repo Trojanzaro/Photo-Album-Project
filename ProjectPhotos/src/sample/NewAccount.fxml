@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="427.0" prefWidth="397.0" style="-fx-background-color: #021526;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewAccount">
+   <children>
+      <AnchorPane layoutX="76.0" layoutY="59.0" prefHeight="309.0" prefWidth="270.0" style="-fx-background-color: #203339;">
+         <children>
+            <PasswordField layoutX="50.0" layoutY="120.0" promptText="Password" style="-fx-background-color: #021323;" />
+            <PasswordField layoutX="51.0" layoutY="162.0" promptText="Confirm Password" style="-fx-background-color: #021323;" />
+            <TextField layoutX="52.0" layoutY="41.0" promptText="Name" style="-fx-background-color: #021323;" />
+            <Button layoutX="76.0" layoutY="226.0" mnemonicParsing="false" style="-fx-background-color: #021323;" text="Create account" textFill="#9a9a9a" />
+            <TextField layoutX="51.0" layoutY="81.0" promptText="Email" style="-fx-background-color: #021323;" />
+            <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="14.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../email.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="35.0" layoutX="14.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../name.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="14.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../lock-24-512.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="10.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img_527779.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="129.0" layoutY="29.0" prefHeight="26.0" prefWidth="191.0" text="Join us now!" textFill="#b2b2b2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
